@@ -90,10 +90,16 @@ button {
 
 .main {
   width: 751px;
-  height: 1024px;
   background-color: white;
   margin-top: 0px;
   position: relative;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  height: 171px;
 }
 
 .photo {
